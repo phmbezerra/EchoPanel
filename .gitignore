@@ -1,0 +1,88 @@
+# ==============================
+# EchoPanel — Laravel / PHP / Node
+# ==============================
+
+# Dependências
+/vendor/
+/node_modules/
+
+# Ambiente e segredos
+.env
+.env.*
+!.env.example
+/auth.json
+/.env.backup
+/.env.production
+
+# Banco SQLite local e arquivos auxiliares
+/database/*.sqlite
+/database/*.sqlite3
+/database/*.db
+/database/*.db-shm
+/database/*.db-wal
+/database/*.sqlite-shm
+/database/*.sqlite-wal
+/database/*.sqlite3-shm
+/database/*.sqlite3-wal
+
+# Build e arquivos públicos gerados
+/public/build/
+/public/hot
+/public/storage
+/public/fonts-manifest.dev.json
+
+# Laravel — arquivos gerados em runtime
+/storage/*.key
+/storage/pail
+/storage/logs/*
+!/storage/logs/.gitignore
+/storage/framework/cache/*
+!/storage/framework/cache/.gitignore
+/storage/framework/sessions/*
+!/storage/framework/sessions/.gitignore
+/storage/framework/testing/*
+!/storage/framework/testing/.gitignore
+/storage/framework/views/*
+!/storage/framework/views/.gitignore
+/bootstrap/cache/*.php
+!/bootstrap/cache/.gitignore
+
+# Testes, cobertura e ferramentas
+/.phpunit.cache
+.phpunit.result.cache
+.phpunit.cache
+/coverage/
+.phpactor.json
+.php-cs-fixer.cache
+.php-cs-fixer.dist.php.cache
+/.rector/
+composer.phar
+
+# Logs de gerenciadores de pacotes
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Ambientes de desenvolvimento
+Homestead.json
+Homestead.yaml
+
+# Editores e IDEs
+/.fleet/
+/.idea/
+/.nova/
+/.vscode/
+/.zed/
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporários e backups locais
+*.tmp
+*.temp
+*.bak
+*.swp
+*~
